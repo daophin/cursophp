@@ -9,7 +9,7 @@
 <body>
     <h1>
         <?php /* echo é um comando para escrever na tela que veio do Pearl e print é um comando também que serve para mostrar algo na tela que veio da linguagem C */
-            echo "Olá, Mundo \u{1F30E} ";
+            echo "Olá, Mundo \u{1F30E} " . "PHP";
         ?>
     </h1>
     <p>Vamos tentar nos livrar da maldição.</p>
