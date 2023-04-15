@@ -135,11 +135,11 @@ p > a:hover {
     color: palevioletred;
 }
 
-main#php {
+/*main#php {
     position: absolute;
     width: 100vw;
     height: 80%;
     padding: 15px;
     margin-bottom: 20px;
     background: center center / cover no-repeat url("../imagens/paper-texture.jpg") rgb(239, 243, 247) fixed;
-}
+}*/
