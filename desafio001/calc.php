@@ -11,11 +11,12 @@
     <header>
         <h1>Resuntado do processamento</h1>
     </header>
-    <main>
+    <main id="php">
         <?php // $_REQUEST é uma variável global que contém dentro $_GET, $_POST e $_COOKIES
-            $nome = $_GET["nome"] ?? "sem nome";
-            $sobrenome = $_GET["sobrenome"] ?? "desconhecido";
-            echo "<p>É um prazer te conhecer, $nome $sobrenome ! Este é meu site</p>"
+            $numeroAtual = $_GET ["menssage"];
+            $anterior = $_GET ["menssage"] - 1;
+            $sucessor = $_GET ["menssage"] + 1;
+            echo "O valor digitado foi $numeroAtual<br> Antecessor > $anterior<br> Sucessor > $sucessor";
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para página anterior</a></p>
     </main>
