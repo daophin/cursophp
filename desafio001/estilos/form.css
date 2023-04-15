@@ -100,3 +100,11 @@ section .btn {
 section .btn:hover{
     background-color: rgba(239, 238, 240, 0.658);
 }
+
+div > footer {
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
